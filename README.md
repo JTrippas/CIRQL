@@ -99,7 +99,7 @@ more comprehensive data after a more thorough vetting process.
 
 If using the CIRQL dataset, please cite the paper:
 
-```
+```bibtex
 @inproceedings{trippas2024reevaluating,
  author = {Trippas, Johanne R and Gallagher, Luke and Mackenzie, Joel},
  booktitle = {Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
