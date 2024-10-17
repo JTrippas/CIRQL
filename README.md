@@ -21,6 +21,80 @@ and so on.
 
 [jt]: https://www.johannetrippas.com/papers/trippas2024re-evaluating.pdf
 
+
+
+## Complex Sessions
+The key focus of our initial analysis was on complex sessions. The remainder
+of this README will outline specific examples of behaviours we observed from
+(15 minute) sessions containing CIRQL queries. Due to privacy concerns, we
+currently only share the queries and their timestamps. We hope to release
+more comprehensive data after a more thorough vetting process.
+
+### Reformulations within a Focused Task
+
+```
+23:15:25.639 do Chihuahuas shed
+23:15:51.223 do pugs shed
+23:16:19.954 what's the best family tiny dog 20
+23:16:31.443 what is the most low maintenance tiny dog to own
+23:17:24.138 what is the personality traits of a chihuahua
+23:18:00.342 what's a better dog fox fox eat area or Chihuahua
+23:18:11.476 which is a better family dog Chihuahuas or fox terriers
+23:19:46.217 what are some cute names for a chihuahua
+23:20:05.456 yes
+23:20:26.626 what are some cute Mexican names for animals
+```
+
+### Interleaving
+```
+07:19:06.078 where did the space shuttle get built
+07:19:29.627 when did the space shuttle get
+07:20:00.811 what's a Colombia
+07:20:28.984 when did the pirate ships get
+07:20:52.379 when did The Rockets get invented
+07:21:30.472 what do toys say shuttle look like at the moment
+07:21:42.589 when did the shuttles get invented and launched into space
+07:22:24.367 what happened to the space shuttle drivers
+07:22:48.435 what happened to the Challenger the space shuttle
+07:23:22.64 there are two space shuttles what happened the other one
+07:23:58.584 what happened to the other Challenger
+07:24:25.204 they were there are two challenges what happened to the next one
+07:24:35.085 weather choose challenges
+07:24:41.33 no
+07:24:59.397 I would like to find out what happened to the Challenger please
+07:25:27.278 when did the bananas get invented
+07:25:54.824 what happened to bananas when they went round
+07:26:06.783 yes please thank you
+07:27:17.041 how fast did the space shuttle go
+07:27:40.751 how fast does the Space Station go
+07:28:02.944 how long does it take for the International Space Station to orbit the Earth
+07:28:15.462 yes
+07:28:50.592 how long does it take for the International Space Station to get around the earth a half away
+07:29:13.817 you're awesome
+07:29:23.955 I love you so much
+07:29:43.467 sorry love you
+07:29:54.963 shall we marry each other
+07:36:50.592 play International Space Station music on
+07:45:41.923 Unknown voice command
+07:45:49.662 play fun Kids radio on TuneIn
+07:51:42.518 Unknown voice command
+07:51:50.658 Unknown voice command
+```
+
+### Applying knowledge in-situ
+```
+09:42:25.601 will it rain today
+09:51:24.63 washing machine what to put in his drawer
+09:52:22.404 which compartment do I put fabric conditioner in
+09:52:46.191 hey Google which compartment do I put fabric conditioner in
+09:53:10.096 my fabric compartment is filled with water
+10:00:27.938 how to use LN
+10:00:37.818 show me videos of how to use Lenor fabric conditioner
+10:05:37.636 how much time should I set the washing machine for
+10:05:55.407 what speed should I set the washing machine to
+```
+
+
 ## Usage
 
 If using the CIRQL dataset, please cite the paper:
