@@ -9,10 +9,12 @@ aimed to remove common commands and non-query interactions (like *turn off
 the lights*) as well as any non-English inputs, addresses, phone numbers,
 emojis, and so on.
 
+The whole filtering process is described in the paper below.
+
 ## Dataset
 
-The resulting dataset, CIRQL, contains 2,807 queries from 1,799 user sesssions.
-Session data is synthetic and derived using in inactivity peroid of 15 minutes.
+The resulting dataset, CIRQL, contains 2,807 queries from 1,799 user sessions.
+Session data is synthetic and derived using an inactivity period of 15 minutes.
 The order of queries within a session is ascending chronological.
 Therefore the first query of a session is time step `t1`, the second query is time step `t2`,
 and so on.
