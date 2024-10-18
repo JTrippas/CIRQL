@@ -16,7 +16,7 @@ The whole filtering process is described in the paper below.
 The resulting dataset, CIRQL, contains 2,807 queries from 1,799 user sessions.
 Session data is synthetic and derived using an inactivity period of 15 minutes.
 The order of queries within a session is ascending chronological.
-Therefore the first query of a session is time step `t1`, the second query is time step `t2`,
+The first query of a session is time step `t1`, the second query is time step `t2`,
 and so on.
 
 [jt]: https://www.johannetrippas.com/papers/trippas2024re-evaluating.pdf
@@ -26,9 +26,7 @@ and so on.
 ## Complex Sessions
 The key focus of our initial analysis was on complex sessions. The remainder
 of this README will outline specific examples of behaviours we observed from
-(15 minute) sessions containing CIRQL queries. Due to privacy concerns, we
-currently only share the queries and their timestamps. We hope to release
-more comprehensive data after a more thorough vetting process.
+(15 minute) sessions containing CIRQL queries.
 
 ### Reformulations within a Focused Task
 
